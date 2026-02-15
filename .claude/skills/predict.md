@@ -11,7 +11,9 @@
 
 ## 実行フロー
 
-ユーザーがレースを指定したら、以下のCentralized Agent Loopを実行する。
+ユーザーがレースを指定したら、以下の直列ループを実行する。
+**各エージェントは順番に1つずつ実行する。並列実行はしない。**
+**Critique Agentは毎ループの最終ステップとして必ず実行する。**
 
 ### Step 1: レース特定と計画立案（Plan Agent）
 
@@ -25,6 +27,7 @@ Plan Agentが以下を決定する:
 - 対象レースの正式情報（日付・会場・レース番号・レース名・距離・条件）
 - 収集すべき情報リスト
 - 注目すべき観点
+- スコアリング方針（ファクター重み）
 
 ### Step 2: 情報収集（Collect Agent）
 
@@ -55,25 +58,38 @@ Reason Agentが以下を実行する:
 - オッズとの比較による期待値計算
 - 推奨買い目の作成
 
-### Step 4: 批評・改善（Critique Agent）
+### Step 4: 批評（Critique Agent）— ループ末尾で必ず実行
+
+**Reason Agentの完了後、必ずCritique Agentを実行する。スキップしてはならない。**
 
 `agents/critique.md` のプロンプトに従い、Task toolでCritique Agentを起動する。
 
 ```
-Task(subagent_type="general-purpose", prompt=<agents/critique.mdの内容 + Reason Agentの出力>)
+Task(subagent_type="general-purpose", prompt=<agents/critique.mdの内容 + 本ループの全出力（Plan/Collect/Reason）>)
 ```
 
-Critique Agentが以下を評価する:
+Critique Agentが以下を評価し、verdict を出力する:
 - 推論の論理的整合性
 - 見落としているファクター
 - 過大/過小評価の指摘
 - 追加収集が必要な情報
+- **verdict: "sufficient" または "insufficient"**
 
-### Step 5: ループ判定
+### Step 5: Plan Agentによるループ判断
 
-Critique Agentの出力に基づき:
-- 「十分」→ Step 6へ
-- 「不十分」→ Step 2に戻る（最大3ループ）
+**Critique Agentの出力をPlan Agentに渡し、ループ継続/終了を判断させる。**
+
+```
+Task(subagent_type="general-purpose", prompt=<agents/plan.mdのループ判断セクション + Critique出力>)
+```
+
+Plan Agentの判断:
+- `verdict: "insufficient"` → Critiqueの指摘を反映した改善計画を作成し、Step 2に戻る
+  - 追加収集すべき情報を具体化
+  - スコアリング方針の修正点を明示
+  - ファクター重みの調整内容を決定
+- `verdict: "sufficient"` → Step 6へ
+- **最大3ループ**。3ループ目の完了後は verdict に関わらず Step 6へ進む
 
 ### Step 6: 最終予想出力
 
