@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "last_updated": null,
+  "venues": {
+    "東京": {
+      "turf": {
+        "1400": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1600": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1800": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2000": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2400": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "general_notes": "直線525.9m（JRA最長）。末脚勝負になりやすい。"
+      },
+      "dirt": {
+        "1300": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1400": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1600": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2100": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "general_notes": ""
+      }
+    },
+    "中山": {
+      "turf": {
+        "1200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1600": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1800": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2000": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2500": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "general_notes": "直線310m。小回り。先行有利傾向。急坂あり。"
+      },
+      "dirt": {
+        "1200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1800": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "general_notes": ""
+      }
+    },
+    "阪神": {
+      "turf": {
+        "general_notes": "内回り/外回りあり。外回り直線473.6m。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "京都": {
+      "turf": {
+        "general_notes": "内回り/外回りあり。下り坂からの直線。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "小倉": {
+      "turf": {
+        "general_notes": "平坦小回り。逃げ先行有利傾向強い。直線293m。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "新潟": {
+      "turf": {
+        "general_notes": "外回り直線659m（JRA最長直線）。内回りは直線359m。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "福島": {
+      "turf": {
+        "general_notes": "小回り平坦。先行有利傾向。直線292m。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "札幌": {
+      "turf": {
+        "general_notes": "洋芝。右回り。直線266m。先行有利傾向。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "函館": {
+      "turf": {
+        "general_notes": "洋芝。右回り。直線262m（JRA最短）。先行有利傾向強い。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    },
+    "中京": {
+      "turf": {
+        "general_notes": "左回り。直線412.5m。坂あり。比較的差しも届く。"
+      },
+      "dirt": {
+        "general_notes": ""
+      }
+    }
+  },
+  "daily_records": [],
+  "notes": "このファイルは /review スキルにより自動更新されます。各開催日のトラックバイアス記録が daily_records に蓄積されます。"
+}

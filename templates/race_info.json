@@ -1,0 +1,96 @@
+{
+  "$schema": "レース情報テンプレート",
+  "race_info": {
+    "date": "YYYY-MM-DD",
+    "venue": "東京",
+    "race_number": 11,
+    "race_name": "レース名",
+    "distance": 1600,
+    "surface": "芝 | ダート",
+    "condition": "良 | 稍重 | 重 | 不良",
+    "class": "G1 | G2 | G3 | OP | 3勝 | 2勝 | 1勝 | 未勝利",
+    "age_condition": "3歳以上 | 3歳 | 4歳以上",
+    "sex_condition": "牡牝混合 | 牝限定",
+    "prize_1st": "1着賞金（万円）",
+    "entries": 16,
+    "weather": "晴 | 曇 | 雨 | 雪"
+  },
+  "horses": [
+    {
+      "number": 1,
+      "gate": 1,
+      "name": "馬名カタカナ",
+      "sex_age": "牡5",
+      "weight_carried": 57.0,
+      "jockey": "騎手名",
+      "trainer": "調教師名",
+      "stable": "美浦 | 栗東",
+      "owner": "馬主名",
+      "sire": "父馬名",
+      "dam": "母馬名",
+      "dam_sire": "母父馬名",
+      "horse_weight": null,
+      "horse_weight_change": null,
+      "recent_races": [
+        {
+          "date": "YYYY-MM-DD",
+          "venue": "会場",
+          "race_name": "レース名",
+          "distance": 1600,
+          "surface": "芝",
+          "condition": "良",
+          "entries": 16,
+          "finish": 1,
+          "time": "1:33.5",
+          "margin": "クビ",
+          "last_3f": "34.2",
+          "passing_order": "3-3-2-1",
+          "jockey": "騎手名",
+          "weight_carried": 57.0,
+          "horse_weight": 480,
+          "pre_race_score": null
+        }
+      ],
+      "distance_record": {
+        "runs": 5,
+        "wins": 2,
+        "seconds": 1,
+        "thirds": 0,
+        "win_rate": 0.40,
+        "place_rate": 0.60
+      },
+      "course_record": {
+        "runs": 3,
+        "wins": 1,
+        "seconds": 1,
+        "thirds": 0,
+        "win_rate": 0.33,
+        "place_rate": 0.67
+      },
+      "surface_condition_record": {
+        "good": {"runs": 8, "wins": 3, "place_rate": 0.50},
+        "slightly_heavy": {"runs": 2, "wins": 1, "place_rate": 0.50},
+        "heavy": {"runs": 1, "wins": 0, "place_rate": 0.00},
+        "bad": {"runs": 0, "wins": 0, "place_rate": null}
+      },
+      "running_style": "先行 | 逃げ | 差し | 追込",
+      "best_weight_range": {"min": 475, "max": 485}
+    }
+  ],
+  "odds": {
+    "win": {},
+    "place": {},
+    "quinella": {},
+    "updated_at": null
+  },
+  "track_bias": {
+    "description": "テキスト説明",
+    "inner_outer": "flat | inner_advantage | outer_advantage",
+    "pace_tendency": "front_runner_advantage | closer_advantage | neutral",
+    "rail_position": "内柵位置（A, B, C等）",
+    "source": "情報ソース",
+    "confidence": "high | medium | low"
+  },
+  "collected_at": "ISO8601タイムスタンプ",
+  "collection_notes": []
+}

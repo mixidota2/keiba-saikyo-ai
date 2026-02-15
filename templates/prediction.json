@@ -1,0 +1,85 @@
+{
+  "$schema": "予想結果テンプレート",
+  "prediction_id": "YYYY-MM-DD_会場_R_prediction",
+  "race": {
+    "date": "YYYY-MM-DD",
+    "venue": "会場名",
+    "race_number": 11,
+    "race_name": "レース名",
+    "distance": 1600,
+    "surface": "芝 | ダート",
+    "condition": "良"
+  },
+  "loop_count": 2,
+  "scoring": {
+    "factor_weights": {
+      "recent_form": 0.25,
+      "course_aptitude": 0.20,
+      "distance_aptitude": 0.15,
+      "jockey": 0.10,
+      "draw": 0.10,
+      "pace": 0.10,
+      "track_condition": 0.05,
+      "class_level": 0.05
+    },
+    "horses": [
+      {
+        "number": 1,
+        "name": "馬名",
+        "factor_scores": {
+          "recent_form": 75,
+          "course_aptitude": 60,
+          "distance_aptitude": 80,
+          "jockey": 70,
+          "draw": 55,
+          "pace": 65,
+          "track_condition": 50,
+          "class_level": 70
+        },
+        "total_score": 68.5,
+        "rank": 3,
+        "estimated_win_rate": 0.12,
+        "odds_win": 8.5,
+        "expected_return": 102,
+        "reasoning": "推論根拠テキスト"
+      }
+    ]
+  },
+  "pace_prediction": {
+    "type": "ミドルペース | ハイペース | スローペース",
+    "reasoning": "根拠",
+    "front_runners": ["馬名1"],
+    "stalkers": ["馬名2", "馬名3"],
+    "closers": ["馬名4"]
+  },
+  "recommended_bets": [
+    {
+      "type": "単勝 | 複勝 | 馬連 | ワイド | 馬単 | 三連複 | 三連単",
+      "selection": "3",
+      "expected_return": 185,
+      "confidence": "high | medium | low",
+      "investment_ratio": 0.4,
+      "reasoning": "買い目の根拠"
+    }
+  ],
+  "skip_recommendation": false,
+  "skip_reason": null,
+  "day_of_adjustments": [
+    {
+      "type": "馬体重 | トラックバイアス | パドック | オッズ変動",
+      "description": "補正内容",
+      "affected_horses": ["馬名"],
+      "score_adjustments": {"馬名": "+5"},
+      "applied_at": "ISO8601タイムスタンプ"
+    }
+  ],
+  "critique_summary": "Critique Agentの最終評価サマリー",
+  "key_insights": [
+    "予想の主要ポイント"
+  ],
+  "risk_notes": [
+    "リスク・注意事項"
+  ],
+  "created_at": "ISO8601タイムスタンプ",
+  "updated_at": "ISO8601タイムスタンプ"
+}

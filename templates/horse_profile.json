@@ -1,0 +1,41 @@
+{
+  "$schema": "馬プロフィールテンプレート（詳細版）",
+  "name": "馬名カタカナ",
+  "sex": "牡 | 牝 | セ",
+  "age": 5,
+  "birthday": "YYYY-MM-DD",
+  "color": "鹿毛 | 黒鹿毛 | 栗毛 | 青鹿毛 | 芦毛 | 白毛",
+  "pedigree": {
+    "sire": "父馬名",
+    "dam": "母馬名",
+    "dam_sire": "母父馬名",
+    "sire_line": "系統名（サンデーサイレンス系等）"
+  },
+  "trainer": "調教師名",
+  "stable": "美浦 | 栗東",
+  "owner": "馬主名",
+  "career": {
+    "total": {"runs": 20, "wins": 5, "seconds": 4, "thirds": 2},
+    "turf": {"runs": 15, "wins": 4, "seconds": 3, "thirds": 2},
+    "dirt": {"runs": 5, "wins": 1, "seconds": 1, "thirds": 0},
+    "earnings": "獲得賞金（万円）"
+  },
+  "distance_aptitude": {
+    "sprint": {"runs": 0, "place_rate": null, "comment": "1000-1400m"},
+    "mile": {"runs": 8, "place_rate": 0.50, "comment": "1400-1800m"},
+    "intermediate": {"runs": 10, "place_rate": 0.40, "comment": "1800-2200m"},
+    "long": {"runs": 2, "place_rate": 0.00, "comment": "2200m以上"}
+  },
+  "running_style": "先行",
+  "best_conditions": {
+    "surface": "芝",
+    "condition": "良",
+    "distance_range": [1600, 2000],
+    "course_preference": "右回り"
+  },
+  "weight_history": [
+    {"date": "YYYY-MM-DD", "weight": 480, "change": "+4", "result": "1着"}
+  ],
+  "best_weight_range": {"min": 475, "max": 485},
+  "notes": "特記事項"
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "last_updated": null,
+  "jockeys": {},
+  "notes": "このファイルは /review スキルにより自動更新されます。騎手ごとの会場別・距離別・馬場別成績が蓄積されます。フォーマット例: jockeys.{騎手名}.{venue}.{surface}.{wins, runs, win_rate, place_rate}"
+}
