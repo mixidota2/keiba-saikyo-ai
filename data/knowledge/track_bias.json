@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": null,
+  "last_updated": "2026-02-22",
   "venues": {
     "東京": {
       "turf": {
@@ -14,9 +14,9 @@
       "dirt": {
         "1300": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
         "1400": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
-        "1600": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "1600": {"inner_outer": "outer_advantage", "pace": "high_pace_advantage_closers", "notes": "2026フェブラリーS: ハイペース(47.1-36.2)。後方待機→大外差しのコスタノヴァが連覇。ハイペースでは差し・追込有利。"},
         "2100": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
-        "general_notes": ""
+        "general_notes": "東京ダ1600mはハイペースになりやすく差し有利傾向。2026/2/22良馬場でコスタノヴァが後方から大外差し切り。"
       }
     },
     "中山": {
@@ -100,6 +100,18 @@
       }
     }
   },
-  "daily_records": [],
+  "daily_records": [
+    {
+      "date": "2026-02-22",
+      "venue": "東京",
+      "surface": "ダート",
+      "condition": "良",
+      "weather": "晴",
+      "bias": "outer_advantage",
+      "pace_tendency": "ハイペース(47.1-36.2)",
+      "winner_style": "差し(後方→大外)",
+      "notes": "フェブラリーS: コスタノヴァ後方待機→直線大外から差し切り。先行勢が崩れるハイペース。"
+    }
+  ],
   "notes": "このファイルは /review スキルにより自動更新されます。各開催日のトラックバイアス記録が daily_records に蓄積されます。"
 }
