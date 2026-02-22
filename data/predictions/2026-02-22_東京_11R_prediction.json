@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "created_at": "2026-02-22",
+    "agent_workflow": "Centralized Multi-Agent (Plan→Collect→Reason→Critique×2 loops)",
+    "loops_executed": 2,
+    "final_quality_score": 78,
+    "final_verdict": "sufficient"
+  },
+  "race_info": {
+    "date": "2026-02-22",
+    "venue": "東京",
+    "race_number": 11,
+    "race_name": "第43回フェブラリーステークス",
+    "distance": 1600,
+    "surface": "ダート",
+    "class": "G1",
+    "entries": 16,
+    "track_condition": "良",
+    "weather": "晴"
+  },
+  "entry_list": [
+    { "gate": 1, "number": 1,  "name": "オメガギネス",     "jockey": "岩田康誠",   "weight": 58, "odds": 19.4, "popularity": 7 },
+    { "gate": 1, "number": 2,  "name": "ハッピーマン",     "jockey": "高杉吏麒",   "weight": 58, "odds": 71.0, "popularity": 14 },
+    { "gate": 2, "number": 3,  "name": "ブライアンセンス", "jockey": "岩田望来",   "weight": 58, "odds": 61.4, "popularity": 13 },
+    { "gate": 2, "number": 4,  "name": "ペリエール",       "jockey": "佐々木大輔", "weight": 58, "odds": 32.4, "popularity": 9 },
+    { "gate": 3, "number": 5,  "name": "シックスペンス",   "jockey": "戸崎圭太",   "weight": 58, "odds": 17.0, "popularity": 5 },
+    { "gate": 3, "number": 6,  "name": "ラムジェット",     "jockey": "三浦皇成",   "weight": 58, "odds": 8.1,  "popularity": 4 },
+    { "gate": 4, "number": 7,  "name": "ロングラン",       "jockey": "荻野極",     "weight": 58, "odds": 164.6,"popularity": 15 },
+    { "gate": 4, "number": 8,  "name": "サクラトゥジュール","jockey": "R.キング",   "weight": 58, "odds": 45.8, "popularity": 10 },
+    { "gate": 5, "number": 9,  "name": "ダブルハートボンド","jockey": "坂井瑠星",   "weight": 56, "odds": 2.9,  "popularity": 1 },
+    { "gate": 5, "number": 10, "name": "ロードクロンヌ",   "jockey": "横山和生",   "weight": 58, "odds": 17.1, "popularity": 6 },
+    { "gate": 6, "number": 11, "name": "サンライズホーク", "jockey": "松岡正海",   "weight": 58, "odds": 235.5,"popularity": 16 },
+    { "gate": 6, "number": 12, "name": "コスタノヴァ",     "jockey": "C.ルメール", "weight": 58, "odds": 3.4,  "popularity": 2 },
+    { "gate": 7, "number": 13, "name": "ナチュラルライズ", "jockey": "横山武史",   "weight": 58, "odds": 22.5, "popularity": 8 },
+    { "gate": 7, "number": 14, "name": "ウィルソンテソーロ","jockey": "川田将雅",   "weight": 58, "odds": 6.2,  "popularity": 3 },
+    { "gate": 8, "number": 15, "name": "ペプチドナイル",   "jockey": "富田暁",     "weight": 58, "odds": 59.7, "popularity": 11 },
+    { "gate": 8, "number": 16, "name": "サイモンザナドゥ", "jockey": "池添謙一",   "weight": 58, "odds": 60.8, "popularity": 12 }
+  ],
+  "scores": [
+    { "number": 12, "name": "コスタノヴァ",     "score": 89.65, "estimated_win_pct": 15.86, "single_ev_pct": 53.9 },
+    { "number": 14, "name": "ウィルソンテソーロ","score": 74.98, "estimated_win_pct": 11.10, "single_ev_pct": 68.8 },
+    { "number": 9,  "name": "ダブルハートボンド","score": 72.14, "estimated_win_pct": 10.27, "single_ev_pct": 29.8 },
+    { "number": 3,  "name": "ブライアンセンス", "score": 71.56, "estimated_win_pct": 10.11, "single_ev_pct": 620.7 },
+    { "number": 6,  "name": "ラムジェット",     "score": 62.92, "estimated_win_pct":  7.81, "single_ev_pct": 63.3 },
+    { "number": 13, "name": "ナチュラルライズ", "score": 59.69, "estimated_win_pct":  7.03, "single_ev_pct": 158.2 },
+    { "number": 1,  "name": "オメガギネス",     "score": 59.23, "estimated_win_pct":  6.92, "single_ev_pct": 134.3 },
+    { "number": 10, "name": "ロードクロンヌ",   "score": 54.24, "estimated_win_pct":  5.81, "single_ev_pct": 99.3 },
+    { "number": 15, "name": "ペプチドナイル",   "score": 52.75, "estimated_win_pct":  5.49, "single_ev_pct": 327.8 },
+    { "number": 8,  "name": "サクラトゥジュール","score": 47.50, "estimated_win_pct":  4.45, "single_ev_pct": 204.0 },
+    { "number": 16, "name": "サイモンザナドゥ", "score": 42.98, "estimated_win_pct":  3.65, "single_ev_pct": 221.7 },
+    { "number": 11, "name": "サンライズホーク", "score": 36.15, "estimated_win_pct":  2.58, "single_ev_pct": 607.8 },
+    { "number": 7,  "name": "ロングラン",       "score": 35.64, "estimated_win_pct":  2.51, "single_ev_pct": 412.9 },
+    { "number": 4,  "name": "ペリエール",       "score": 34.43, "estimated_win_pct":  2.34, "single_ev_pct": 75.8 },
+    { "number": 5,  "name": "シックスペンス",   "score": 34.15, "estimated_win_pct":  2.30, "single_ev_pct": 39.1 },
+    { "number": 2,  "name": "ハッピーマン",     "score": 29.91, "estimated_win_pct":  1.77, "single_ev_pct": 125.4 }
+  ],
+  "prediction": {
+    "honmei": { "number": 12, "name": "コスタノヴァ", "mark": "◎" },
+    "taiko":  { "number": 14, "name": "ウィルソンテソーロ", "mark": "○" },
+    "sankaku": { "number": 3, "name": "ブライアンセンス", "mark": "▲" },
+    "delta":  [
+      { "number": 9,  "name": "ダブルハートボンド" },
+      { "number": 13, "name": "ナチュラルライズ" },
+      { "number": 1,  "name": "オメガギネス" }
+    ]
+  },
+  "recommended_bets": [
+    { "id": 1, "type": "単勝", "combination": [3],      "ev_pct": 620.7, "note": "穴・東京ダ全馬券圏内・Vデータ全クリア" },
+    { "id": 2, "type": "単勝", "combination": [13],     "ev_pct": 158.2, "note": "穴・東京ダ実績・22.5倍" },
+    { "id": 3, "type": "単勝", "combination": [1],      "ev_pct": 134.3, "note": "穴・東京ダ1600m勝利実績・19.4倍" },
+    { "id": 4, "type": "馬連", "combination": [12, 3],  "ev_pct": 303.0, "note": "軸コスタノヴァ×穴ブライアンセンス" },
+    { "id": 5, "type": "馬連", "combination": [12, 13], "ev_pct": 272.0, "note": "軸コスタノヴァ×穴ナチュラルライズ" },
+    { "id": 6, "type": "馬連", "combination": [12, 1],  "ev_pct": 291.0, "note": "軸コスタノヴァ×穴オメガギネス" },
+    { "id": 7, "type": "三連複","combination": [12,14,3],"ev_pct": 901.0, "note": "コスタノヴァ-ウィルソンテソーロ-ブライアンセンス" },
+    { "id": 8, "type": "三連複","combination": [12, 9,3],"ev_pct": 797.0, "note": "コスタノヴァ-ダブルハートボンド-ブライアンセンス" }
+  ],
+  "strategy_summary": "コスタノヴァ（12番）を馬連軸に、穴馬ブライアンセンス（3番・期待回収率620%）・ナチュラルライズ（13番）・オメガギネス（1番）へ流す。三連複で高配当も狙う。単勝人気馬（コスタノヴァ・ダブルハートボンド）は期待値マイナスのため見送り。"
+}
