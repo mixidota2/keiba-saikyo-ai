@@ -1,0 +1,339 @@
+{
+  "prediction_id": "2025-02-23_東京_11R_prediction",
+  "race": {
+    "date": "2025-02-23",
+    "venue": "東京",
+    "race_number": 11,
+    "race_name": "第42回フェブラリーステークス(G1)",
+    "distance": 1600,
+    "surface": "ダート",
+    "condition": "良",
+    "entries": 16
+  },
+  "loop_count": 1,
+  "scoring": {
+    "factor_weights": {
+      "recent_form": 0.22,
+      "course_aptitude": 0.22,
+      "distance_aptitude": 0.10,
+      "jockey": 0.10,
+      "draw": 0.13,
+      "pace": 0.13,
+      "track_condition": 0.05,
+      "class_level": 0.05
+    },
+    "methodology_note": "スコアリングはPlan Agentの重みに基づく8ファクター評価。勝率推定はscore^2.5モデルをベースに、市場オッズ(控除率20%想定)とのブレンド(model 55%:market 45%)で算出。期待回収率はblended_prob * odds * 100で計算。",
+    "horses": [
+      {
+        "number": 9,
+        "name": "コスタノヴァ",
+        "popularity": 2,
+        "factor_scores": {
+          "recent_form": 88,
+          "course_aptitude": 97,
+          "distance_aptitude": 65,
+          "jockey": 50,
+          "draw": 55,
+          "pace": 72,
+          "track_condition": 60,
+          "class_level": 55
+        },
+        "total_score": 73.26,
+        "rank": 1,
+        "estimated_win_rate": 0.143,
+        "odds_win": 4.3,
+        "expected_return": 62,
+        "reasoning": "【スコア最上位・予想の軸】東京ダート6戦6勝はフェブラリーS全出走馬中で群を抜くコース適性(97点)。根岸S(G3)4馬身差圧勝の近走力(88点)も最上位。5枠9番の中枠は芝スタートで大きな不利なし。好位差しの脚質はハイペース想定で恩恵あり。課題はG1初挑戦のクラス適性(55点)とR.キング騎手との初コンビ(50点)。単勝期待値は62%と閾値未満だが、能力最上位として馬券の軸には最適。"
+      },
+      {
+        "number": 1,
+        "name": "エンペラーワケア",
+        "popularity": 3,
+        "factor_scores": {
+          "recent_form": 82,
+          "course_aptitude": 92,
+          "distance_aptitude": 68,
+          "jockey": 75,
+          "draw": 35,
+          "pace": 55,
+          "track_condition": 65,
+          "class_level": 60
+        },
+        "total_score": 70.09,
+        "rank": 2,
+        "estimated_win_rate": 0.142,
+        "odds_win": 4.0,
+        "expected_return": 57,
+        "reasoning": "【能力上位も枠に泣く可能性】東京ダートオール連対(9戦7勝2着2回)はコスタノヴァと並ぶ驚異的適性(92点)。前走武蔵野S(G3)勝ちの近走力も高水準(82点)。横山武史騎手の信頼感(75点)。しかし1枠1番は芝スタートのダ1600mで最大の不利(35点)。先行脚質でハイペースの消耗も懸念(55点)。1400mベストの可能性(距離68点)。オッズ4.0倍は過剰人気の可能性があり、単勝期待値57%は全馬中最低クラス。"
+      },
+      {
+        "number": 14,
+        "name": "ミッキーファイト",
+        "popularity": 1,
+        "factor_scores": {
+          "recent_form": 80,
+          "course_aptitude": 50,
+          "distance_aptitude": 62,
+          "jockey": 72,
+          "draw": 72,
+          "pace": 70,
+          "track_condition": 60,
+          "class_level": 70
+        },
+        "total_score": 67.14,
+        "rank": 3,
+        "estimated_win_rate": 0.125,
+        "odds_win": 4.6,
+        "expected_return": 58,
+        "reasoning": "【1番人気だがコース未知数が最大リスク】名古屋大賞典(Jpn3)コースレコード勝ち、JDC(Jpn1)2着とクラス実績は十分(70点)。4歳の成長力と半兄ジュンライトボルトの血統背景は魅力。戸崎圭太騎手(72点)、7枠14番の外枠(72点)、差しの展開利(70点)はいずれもプラス。しかし東京ダ1600mの実績がほぼなくコース適性は完全に未知数(50点)。1番人気4.6倍は成長力への期待が先行しすぎており、期待値58%。"
+      },
+      {
+        "number": 11,
+        "name": "ペプチドナイル",
+        "popularity": 4,
+        "factor_scores": {
+          "recent_form": 62,
+          "course_aptitude": 72,
+          "distance_aptitude": 72,
+          "jockey": 60,
+          "draw": 65,
+          "pace": 58,
+          "track_condition": 65,
+          "class_level": 78
+        },
+        "total_score": 66.31,
+        "rank": 4,
+        "estimated_win_rate": 0.098,
+        "odds_win": 7.1,
+        "expected_return": 70,
+        "reasoning": "【リピーター注目も過信禁物】2024年フェブラリーS勝ち馬でリピーター傾向(クラス78点)に合致。東京ダ1600m実績あり(コース72点、距離72点)。6枠11番は中外枠で悪くない(65点)。ただし前年Vは超ハイペース(33.9秒)の恩恵が大きく再現性に疑問。前走ChC(G1)5着で近走力は低下傾向(62点)。先行脚質のためハイペースで消耗側に回るリスク(58点)。オッズ7.1倍は前年勝ち馬として妥当で、大きな妙味はない。"
+      },
+      {
+        "number": 15,
+        "name": "ガイアフォース",
+        "popularity": 6,
+        "factor_scores": {
+          "recent_form": 45,
+          "course_aptitude": 65,
+          "distance_aptitude": 68,
+          "jockey": 42,
+          "draw": 75,
+          "pace": 72,
+          "track_condition": 55,
+          "class_level": 70
+        },
+        "total_score": 61.20,
+        "rank": 5,
+        "estimated_win_rate": 0.073,
+        "odds_win": 10.8,
+        "expected_return": 79,
+        "reasoning": "【穴馬筆頭・リピーター+展開利】2024年フェブラリーS2着はダート初挑戦で快挙。リピーター傾向(クラス70点)に合致し、コース・距離適性は実証済み(65点、68点)。8枠15番は芝スタートで最大恩恵の大外枠(75点)。差し脚質はハイペースで最も恩恵(72点)。課題は前走ChC15着からの近走不振(45点)とG1での長岡禎仁騎手の信頼度(42点)。オッズ10.8倍は近走不振を反映したものだが、フェブラリーSに限れば昨年の再現可能性はある。期待値は閾値には届かないが、ヒモとしての妙味は大きい。"
+      },
+      {
+        "number": 12,
+        "name": "サンライズジパング",
+        "popularity": 5,
+        "factor_scores": {
+          "recent_form": 72,
+          "course_aptitude": 50,
+          "distance_aptitude": 48,
+          "jockey": 48,
+          "draw": 65,
+          "pace": 75,
+          "track_condition": 60,
+          "class_level": 62
+        },
+        "total_score": 61.11,
+        "rank": 6,
+        "estimated_win_rate": 0.081,
+        "odds_win": 8.6,
+        "expected_return": 69,
+        "reasoning": "【展開利最大も距離の壁】みやこS(G3)勝ち、JDC(Jpn1)3着の4歳馬。まくり・差しの脚質はハイペースで最大恩恵(75点)。近走力(72点)も安定。6枠12番は中外枠で悪くない(65点)。しかし1600m初挑戦(距離48点)かつ東京ダート未経験(コース50点)は大きなリスク。幸英明騎手も東京G1向きではない(48点)。オッズ8.6倍は5番人気として妥当だが、距離短縮への対応力が完全に未知数であり、積極的には買いにくい。"
+      },
+      {
+        "number": 8,
+        "name": "ドゥラエレーデ",
+        "popularity": 7,
+        "factor_scores": {
+          "recent_form": 55,
+          "course_aptitude": 40,
+          "distance_aptitude": 45,
+          "jockey": 58,
+          "draw": 52,
+          "pace": 62,
+          "track_condition": 55,
+          "class_level": 65
+        },
+        "total_score": 52.81,
+        "rank": 7,
+        "estimated_win_rate": 0.048,
+        "odds_win": 18.0,
+        "expected_return": 86,
+        "reasoning": "ChC(G1)3着が2年連続で地力は認めるが、2024年フェブラリーS12着が示すように東京ダ1600mでは力を発揮できない。1800m以上向きの距離適性(45点)とコース不適(40点)が致命的。差し展開の恩恵(62点)はあるが、コース・距離の壁を越えるほどではない。"
+      },
+      {
+        "number": 7,
+        "name": "サンデーファンデー",
+        "popularity": 8,
+        "factor_scores": {
+          "recent_form": 70,
+          "course_aptitude": 50,
+          "distance_aptitude": 58,
+          "jockey": 62,
+          "draw": 48,
+          "pace": 28,
+          "track_condition": 55,
+          "class_level": 52
+        },
+        "total_score": 52.70,
+        "rank": 8,
+        "estimated_win_rate": 0.051,
+        "odds_win": 15.0,
+        "expected_return": 77,
+        "reasoning": "プロキオンS(G2)逃げ切り勝ちの実績はあるが、逃げ馬3頭のハイペース想定でハナ争い必至(ペース28点)。消耗戦では最も割を食う存在。コース適性も未知数(50点)。"
+      },
+      {
+        "number": 6,
+        "name": "メイショウハリオ",
+        "popularity": 11,
+        "factor_scores": {
+          "recent_form": 60,
+          "course_aptitude": 38,
+          "distance_aptitude": 42,
+          "jockey": 60,
+          "draw": 45,
+          "pace": 55,
+          "track_condition": 60,
+          "class_level": 72
+        },
+        "total_score": 52.05,
+        "rank": 9,
+        "estimated_win_rate": 0.040,
+        "odds_win": 28.0,
+        "expected_return": 113,
+        "reasoning": "【惜しくも閾値未達の穴馬】川崎記念(Jpn1)勝ち、帝王賞2連覇のダートG1最多級実績(クラス72点)。しかし実績はすべて1800m以上であり1600mは短い(距離42点)。東京ダ1600m実績なし(コース38点)。8歳の年齢による衰えも懸念。28倍のオッズに対しモデル勝率4.0%で期待値113%。閾値115%にわずかに届かないが、地力で紛れ込む可能性は否定できない。"
+      },
+      {
+        "number": 4,
+        "name": "ウィリアムバローズ",
+        "popularity": 12,
+        "factor_scores": {
+          "recent_form": 50,
+          "course_aptitude": 58,
+          "distance_aptitude": 62,
+          "jockey": 52,
+          "draw": 40,
+          "pace": 35,
+          "track_condition": 55,
+          "class_level": 58
+        },
+        "total_score": 50.46,
+        "rank": 10,
+        "estimated_win_rate": 0.040,
+        "odds_win": 25.0,
+        "expected_return": 99,
+        "reasoning": "2023年フェブラリーS3着でコース適性(58点)は実証済み。しかし逃げ・先行脚質で3頭のハナ争いは不利(ペース35点)。2枠4番の内枠は芝スタートで不利(40点)。近走に勢いなし(50点)。"
+      },
+      {
+        "number": 3,
+        "name": "ミトノオー",
+        "popularity": 15,
+        "factor_scores": {
+          "recent_form": 58,
+          "course_aptitude": 42,
+          "distance_aptitude": 48,
+          "jockey": 55,
+          "draw": 38,
+          "pace": 20,
+          "track_condition": 55,
+          "class_level": 48
+        },
+        "total_score": 43.44,
+        "rank": 11,
+        "estimated_win_rate": 0.022,
+        "odds_win": 80.0,
+        "expected_return": 178,
+        "reasoning": "【数値上は高期待値だが要注意】オッズ80倍に対しモデル勝率2.2%で期待値178%と数値上は高い。しかしこれは同型3頭のハイペース必至の中で徹底逃げ馬が最も消耗するリスクを十分に織り込んでいない可能性がある。ペーススコア20点は全馬最低。2枠3番の内枠は芝スタートで不利(38点)。平安S(G3)逃げ切りは1800mの別条件。実質的には期待値は大幅に割り引くべきであり、推奨買い目には含めない。"
+      }
+    ]
+  },
+  "pace_prediction": {
+    "type": "ハイペース",
+    "estimated_first_3f": "34.0-34.5秒",
+    "reasoning": "逃げ馬3頭（ミトノオー・サンデーファンデー・ウィリアムバローズ）がハナを主張し、壮絶な先行争いが予想される。2024年は前3F33.9秒の超ハイペースだったが、今年も同様にハイラップが見込まれる。中団〜後方から差す馬に展開利がある。好位差しのコスタノヴァ・ミッキーファイトは前を見ながらの競馬ができ、ガイアフォース・サンライズジパングの追込勢にもチャンスが生まれる。逃げ・先行馬にとっては厳しいレース質。",
+    "front_runners": ["ミトノオー", "サンデーファンデー", "ウィリアムバローズ"],
+    "stalkers": ["エンペラーワケア", "コスタノヴァ", "ペプチドナイル", "ミッキーファイト"],
+    "closers": ["サンライズジパング", "ガイアフォース", "ドゥラエレーデ"]
+  },
+  "recommended_bets": [
+    {
+      "type": "ワイド",
+      "selection": "9-15",
+      "expected_return": 135,
+      "confidence": "medium",
+      "investment_ratio": 0.30,
+      "reasoning": "コスタノヴァ(軸・スコア1位)とガイアフォース(穴・リピーター+最大外枠+差し展開利)のワイド。コスタノヴァの3着内率は約40%、ガイアフォースは昨年2着のリピーター+8枠15番の外枠恩恵+差し展開利で3着内率は約25%と推定。ワイドオッズ3.0-3.5倍想定で期待値120-135%。最も買いやすい一点。"
+    },
+    {
+      "type": "ワイド",
+      "selection": "9-11",
+      "expected_return": 120,
+      "confidence": "medium",
+      "investment_ratio": 0.20,
+      "reasoning": "コスタノヴァ(軸)とペプチドナイル(前年覇者・リピーター)のワイド。ペプチドナイルは前年勝者でコース・距離実績あり。ワイドオッズ2.5-3.0倍想定。手堅い組み合わせ。"
+    },
+    {
+      "type": "馬連",
+      "selection": "9-15",
+      "expected_return": 125,
+      "confidence": "medium",
+      "investment_ratio": 0.15,
+      "reasoning": "コスタノヴァ-ガイアフォースの馬連。コスタノヴァが能力で勝ち切り、ガイアフォースが昨年同様に差し込んでくるシナリオ。馬連オッズ20-30倍想定。ハイペースで差し馬のワンツーが決まれば高配当。"
+    },
+    {
+      "type": "三連複",
+      "selection": "9-11-15",
+      "expected_return": 140,
+      "confidence": "low",
+      "investment_ratio": 0.15,
+      "reasoning": "コスタノヴァ-ペプチドナイル-ガイアフォースの三連複。スコア上位のコスタノヴァを軸に、リピーター2頭(前年1着ペプチドナイル+前年2着ガイアフォース)が揃う組み合わせ。三連複オッズ60-80倍想定。的中率は低いが当たれば高回収。"
+    },
+    {
+      "type": "三連複",
+      "selection": "9-12-15",
+      "expected_return": 130,
+      "confidence": "low",
+      "investment_ratio": 0.10,
+      "reasoning": "コスタノヴァ-サンライズジパング-ガイアフォースの三連複。ハイペースで差し・追込馬が上位独占のシナリオ。サンライズジパングの展開利(ペース75点)は全馬最高で、まくりが決まれば大駆けの可能性。三連複オッズ80-120倍想定。"
+    },
+    {
+      "type": "三連複",
+      "selection": "9-14-15",
+      "expected_return": 120,
+      "confidence": "low",
+      "investment_ratio": 0.10,
+      "reasoning": "コスタノヴァ-ミッキーファイト-ガイアフォースの三連複。1番人気ミッキーファイトの外枠+差し展開利を組み込みつつ、穴のガイアフォースで妙味を確保。三連複オッズ40-60倍想定。"
+    }
+  ],
+  "skip_recommendation": false,
+  "skip_reason": null,
+  "day_of_adjustments": [],
+  "critique_summary": null,
+  "key_insights": [
+    "スコア1位はコスタノヴァ(73.26点)。東京ダート6戦6勝のコース適性が圧倒的だが、G1初挑戦と初コンビの騎手がリスク要因。単勝期待値は閾値未満だが、馬券の軸として最適。",
+    "市場が最も過大評価しているのはエンペラーワケア(1番)。1枠1番の内枠不利を市場が十分に織り込んでおらず、オッズ4.0倍は割高。モデルスコアは2位だが枠の不利で信頼度低下。",
+    "ガイアフォース(15番)はリピーター傾向+8枠15番の外枠恩恵+差し脚質のハイペース展開利で穴として妙味あり。近走不振がオッズに反映されすぎている可能性。",
+    "逃げ馬3頭によるハイペース(34.0-34.5秒想定)は差し・追込馬に有利。コスタノヴァの好位差し、ガイアフォースの差し、サンライズジパングのまくりに展開利。",
+    "上位人気3頭(ミッキーファイト・コスタノヴァ・エンペラーワケア)はいずれも単勝期待値が閾値未満。過剰人気のため、単勝よりもワイド・馬連・三連複でコスタノヴァ軸の中穴狙いが有効。",
+    "ミトノオーは数値上の期待値(178%)が高いが、逃げ馬3頭のペース崩壊リスクが大きすぎるため推奨外。モデルの限界として、逃げ潰れの確率を正確に評価できていない点に注意。"
+  ],
+  "risk_notes": [
+    "R.キング騎手(コスタノヴァ)の手腕が未知数。初コンビかつ日本のダートG1未経験は大きなリスク。",
+    "ガイアフォースの近走不振(ChC15着)が能力低下を示唆している可能性。体調面の不安が払拭されなければ崩れるリスクあり。",
+    "サンライズジパングの1600m初挑戦は距離の壁に当たる可能性。追走に余裕がなくなればまくりが不発に終わるシナリオ。",
+    "ハイペース想定が前提だが、逃げ馬のうち1頭が控える展開になればペースが緩みミドルペースに。その場合は先行馬有利に逆転し、エンペラーワケアやペプチドナイルが浮上する。",
+    "G1レースは市場効率が高く、モデルによる期待値の差異が小さい。推奨買い目の期待値は120-140%レンジであり、「回収率保証」ではないことに留意。"
+  ],
+  "created_at": "2025-02-23T00:00:00+09:00",
+  "updated_at": "2025-02-23T00:00:00+09:00"
+}
