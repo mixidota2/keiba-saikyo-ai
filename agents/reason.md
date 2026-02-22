@@ -159,7 +159,12 @@ Collect Agentが収集した情報と、Plan Agentのスコアリング方針に
 
 ### Phase 4: 推奨買い目の作成
 
-1. **期待値が最も高い組み合わせ**を選定
+**絶対ルール: ユーザーが券種を指定している場合（`user_bet_types`）、指定された券種のみを生成すること。**
+- 例: `user_bet_types: ["馬連", "ワイド"]` → 単勝・三連複・三連単等は一切含めない
+- この制約は出力JSONの `recommended_bets` と `strategy_summary` の両方に適用する
+- 違反した場合、Critique Agentが即座に `verdict: "insufficient"` を出力する
+
+1. **期待値が最も高い組み合わせ**を選定（`user_bet_types` の範囲内で）
 2. **買い目の点数**をPlan Agentの指示に基づき制限
 3. **投資配分**を期待値に比例配分
 
