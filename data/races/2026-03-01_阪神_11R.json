@@ -1,0 +1,1372 @@
+{
+  "mode": "collected",
+  "plan": {
+    "race_info": {
+      "date": "2026-03-01",
+      "venue": "阪神",
+      "race_number": 11,
+      "race_name": "第33回チューリップ賞",
+      "grade": "G2",
+      "distance": 1600,
+      "surface": "芝",
+      "course_detail": "右回り・外回り",
+      "class": "3歳牝馬限定・オープン（馬齢）",
+      "prize_1st": "5200万円",
+      "entries": 15,
+      "post_time": "15:30",
+      "note": "桜花賞トライアル（上位3着以内に桜花賞の優先出走権）"
+    },
+    "race_characteristics": {
+      "course": {
+        "description": "阪神芝1600m外回り。右回り。スタートはバックストレッチ中盤。最初のコーナーまで約470mと長く、序盤は落ち着きやすい。3〜4コーナーは大きなカーブで外回り特有のゆったりした作り。最後の直線は473.6mと長く、残り200m付近に高低差1.8mの急坂あり。",
+        "straight_length": "473.6m",
+        "hill": true,
+        "hill_detail": "残り200m付近に高低差1.8mの急坂",
+        "corners": 2,
+        "draw_bias": "中枠(4〜6枠)がやや有利。内枠はやや不利傾向。大外枠(8枠)は勝率低下傾向あるが、4番人気以内なら問題なし。",
+        "running_style_bias": "先行〜差しが有利。逃げも勝率15%と高いが、直線の長さ＋急坂の影響で差し馬にもチャンスあり。追込は不利傾向(勝率4.1%)。"
+      },
+      "race_tendency": {
+        "grade": "G2（桜花賞トライアル）",
+        "positioning": "桜花賞への最重要ステップレース。上位3着以内に優先出走権付与。ここでの好走が桜花賞直結。",
+        "popularity_trend": "1番人気の勝率45%(過去20年)と高い。ただし近年(2023-2025)は7番人気、5番人気、9番人気が勝利しており波乱傾向が強まっている。",
+        "previous_race_trend": "前走芝1600mの馬が圧倒的に有利(3着以内30頭中27頭)。阪神JFからの臨戦が最も好相性。",
+        "recent_upset_trend": "直近4年連続で3連単10万馬券超え。近年は荒れる傾向が非常に強い。",
+        "pace_pattern": "典型的にはスローからの上がり勝負。3角手前でペースが落ち、直線での末脚比べになりやすい。上がり3F最速馬の好走率が高い。",
+        "blood_trend": "ディープインパクト系が長く好走。母父ノーザンダンサー系の好走も目立つ。"
+      }
+    },
+    "scoring_policy": {
+      "factor_weights": {
+        "recent_form": 0.30,
+        "course_aptitude": 0.10,
+        "distance_aptitude": 0.15,
+        "jockey": 0.12,
+        "draw": 0.08,
+        "pace": 0.10,
+        "track_condition": 0.05,
+        "class_level": 0.10
+      },
+      "expected_value_threshold": 1.0,
+      "recommended_bet_types": ["馬連", "ワイド", "三連複"],
+      "max_bet_points": 8
+    }
+  },
+  "collected_data": {
+    "race_info": {
+      "date": "2026-03-01",
+      "venue": "阪神",
+      "race_number": 11,
+      "race_name": "第33回チューリップ賞",
+      "grade": "G2",
+      "distance": 1600,
+      "surface": "芝",
+      "course_detail": "右回り・外回り",
+      "class": "3歳牝馬限定・オープン（馬齢）",
+      "entries": 15,
+      "post_time": "15:30"
+    },
+    "horses": [
+      {
+        "number": 1,
+        "gate": 1,
+        "name": "エレガンスアスク",
+        "jockey": "坂井瑠星",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 14.1,
+        "popularity": 6,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-02-10",
+            "venue": "京都",
+            "race_name": "3歳新馬",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 1,
+            "time": "1:36.9",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "川田将雅",
+            "weight_carried": 55.0,
+            "entries": 16,
+            "note": "新馬勝ち。前走から騎手変更（川田→坂井）"
+          }
+        ],
+        "career_record": "1戦1勝",
+        "distance_record_1600m": "1戦1勝",
+        "running_style": "不明（キャリア1戦のため判別困難）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東CW",
+          "time": "86.3-70.7-55.6-40.1-12.0",
+          "style": "併せ先着",
+          "evaluation": "不明"
+        },
+        "notes": "キャリア1戦のみで重賞初挑戦。新馬戦は川田将雅騎手で勝利。今回は坂井瑠星に乗り替わり。前走の時計1:36.9は平凡だが、新馬戦のため参考程度。減点なし6頭の1頭として注目。"
+      },
+      {
+        "number": 2,
+        "gate": 2,
+        "name": "グレースジェンヌ",
+        "jockey": "岩田望来",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 114.8,
+        "popularity": 13,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-25",
+            "venue": "京都",
+            "race_name": "河津桜賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 7,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明"
+          }
+        ],
+        "career_record": "不明",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "53.6-38.8-24.8-12.3",
+          "style": "併せ遅れ",
+          "evaluation": "不明"
+        },
+        "notes": "前走河津桜賞7着と大敗。追い切りでも併せ遅れで状態面に疑問。大幅な巻き返しは困難か。"
+      },
+      {
+        "number": 3,
+        "gate": 2,
+        "name": "アンディムジーク",
+        "jockey": "団野大成",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 153.1,
+        "popularity": 14,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-25",
+            "venue": "京都",
+            "race_name": "河津桜賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 8,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明"
+          },
+          {
+            "date": "2025-12-20",
+            "venue": "中京",
+            "race_name": "2歳未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-10-13",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-09-15",
+            "venue": "阪神",
+            "race_name": "2歳未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 2,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "5戦1勝（勝率20%、連対率40%）",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東CW",
+          "time": "83.9-68.4-54.3-39.5-12.4",
+          "style": "単走",
+          "evaluation": "不明"
+        },
+        "notes": "前走河津桜賞8着と大敗。1勝クラスでも苦戦中で重賞では力不足か。"
+      },
+      {
+        "number": 4,
+        "gate": 3,
+        "name": "スマートプリエール",
+        "jockey": "吉村誠之助",
+        "trainer": "大久保龍志",
+        "weight_carried": 55.0,
+        "odds": 13.3,
+        "popularity": 5,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-25",
+            "venue": "京都",
+            "race_name": "河津桜賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "ソルパッサーレから1馬身半差",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "1番人気で3着"
+          },
+          {
+            "date": "2025-10-18",
+            "venue": "東京",
+            "race_name": "アイビーステークス（L）",
+            "distance": "不明",
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 4,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-09-06",
+            "venue": "札幌",
+            "race_name": "札幌2歳ステークス（G3）",
+            "distance": "不明",
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-07-19",
+            "venue": "函館",
+            "race_name": "2歳未勝利",
+            "distance": "不明",
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "4戦1勝",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "51.5-37.3-24.4-12.1",
+          "style": "単走",
+          "evaluation": "好時計で最後まで加速。仕上がり良好"
+        },
+        "notes": "札幌2歳S(G3)3着の重賞実績あり。前走河津桜賞3着はソルパッサーレに1馬身半差。追い切りは坂路で好時計。減点なし6頭の1頭。重賞経験が豊富で能力は高いが、勝ち切れないタイプの可能性。"
+      },
+      {
+        "number": 5,
+        "gate": 3,
+        "name": "ソルパッサーレ",
+        "jockey": "浜中俊",
+        "trainer": "四位洋文",
+        "weight_carried": 55.0,
+        "odds": 7.6,
+        "popularity": 4,
+        "sire": "キズナ",
+        "dam_sire": "Footstepsinthesand",
+        "recent_races": [
+          {
+            "date": "2026-01-25",
+            "venue": "京都",
+            "race_name": "河津桜賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 1,
+            "time": "1:33.7",
+            "last_3f": "不明",
+            "margin": "半馬身",
+            "jockey": "浜中俊",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "2番人気で勝利。外を回しても渋太く脚を使い勝ち切った"
+          },
+          {
+            "date": "2025-11-15",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 2000,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "圧勝と報じられた"
+          },
+          {
+            "date": "2025-07-12",
+            "venue": "小倉",
+            "race_name": "2歳新馬",
+            "distance": 1800,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "3戦2勝",
+        "distance_record_1600m": "1戦1勝（河津桜賞1着）",
+        "running_style": "差し（外を回して末脚を活かすタイプ）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東CW",
+          "time": "52.2-36.6-11.1",
+          "style": "併せ遅れ",
+          "evaluation": "1週前よりも良化。レースでも面白い"
+        },
+        "notes": "前走河津桜賞を連勝。父キズナで距離延長にも対応しそう。浜中俊騎手との相性も良好。追い切りは併せ遅れだが良化傾向。阪神JF不出走組だがマイル実績はある。減点なし6頭の1頭。"
+      },
+      {
+        "number": 6,
+        "gate": 4,
+        "name": "グランドオーパス",
+        "jockey": "高杉吏麒",
+        "trainer": "橋口慎介",
+        "weight_carried": 55.0,
+        "odds": 33.8,
+        "popularity": 10,
+        "sire": "キズナ",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-25",
+            "venue": "京都",
+            "race_name": "河津桜賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 4,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明"
+          },
+          {
+            "date": "2025-08-24",
+            "venue": "新潟",
+            "race_name": "2歳新馬",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": 13
+          }
+        ],
+        "career_record": "2戦1勝",
+        "distance_record_1600m": "2戦1勝",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "53.3-37.9-24.9-12.5",
+          "style": "併せ先着",
+          "evaluation": "相手を待って突き放す余裕の走り"
+        },
+        "notes": "前走河津桜賞4着。追い切りは併せ先着で余裕あるも、前走の河津桜賞では好走止まり。重賞では上位馬との差が大きい可能性。"
+      },
+      {
+        "number": 7,
+        "gate": 4,
+        "name": "サキドリトッケン",
+        "jockey": "飛田愛斗",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 36.3,
+        "popularity": 11,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-22",
+            "venue": "佐賀",
+            "race_name": "花吹雪賞（重賞）",
+            "distance": 1800,
+            "surface": "ダート",
+            "condition": "良",
+            "finish": 1,
+            "time": "2:00.5",
+            "last_3f": "不明",
+            "margin": "1.1/4馬身",
+            "jockey": "吉原寛人",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "佐賀重賞5連勝。断然人気に応えた"
+          },
+          {
+            "date": "2025-11-09",
+            "venue": "佐賀",
+            "race_name": "カペラ賞（重賞）",
+            "distance": 1800,
+            "surface": "ダート",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-11-xx",
+            "venue": "佐賀",
+            "race_name": "フォーマルハウト賞（重賞）",
+            "distance": "不明",
+            "surface": "ダート",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "8戦6勝（地方競馬）",
+        "distance_record_1600m": "芝経験なし（全てダート）",
+        "running_style": "不明",
+        "workout": {
+          "date": "不明",
+          "course": "不明",
+          "time": "不明",
+          "style": "不明",
+          "evaluation": "不明"
+        },
+        "notes": "佐賀競馬の2歳重賞完全制覇（重賞5連勝）。ただし全てダート実績で芝レース経験なし。中央の芝G2への適性は完全に未知数。地方→中央の芝重賞遠征は通常大きな壁がある。騎手も飛田愛斗と地方騎手。"
+      },
+      {
+        "number": 8,
+        "gate": 5,
+        "name": "エイズルブルーム",
+        "jockey": "池添謙一",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 30.0,
+        "popularity": 9,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2026-01-12",
+            "venue": "京都",
+            "race_name": "シンザン記念（G3）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 6,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明"
+          },
+          {
+            "date": "2025-12-21",
+            "venue": "阪神",
+            "race_name": "2歳未勝利",
+            "distance": "不明",
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "不明",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "55.6-39.4-25.3-12.4",
+          "style": "単走",
+          "evaluation": "豪快な走り"
+        },
+        "notes": "前走シンザン記念(G3)6着。牡馬混合の重賞で6着は悪くないが、今回牝馬限定G2でどこまで巻き返せるか。池添謙一騎手は経験豊富だがコース適性データが少ない。"
+      },
+      {
+        "number": 9,
+        "gate": 5,
+        "name": "ホワイトオーキッド",
+        "jockey": "松山弘平",
+        "trainer": "藤原英昭",
+        "weight_carried": 55.0,
+        "odds": 14.2,
+        "popularity": 7,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2025-12-21",
+            "venue": "阪神",
+            "race_name": "朝日杯フューチュリティステークス（G1）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 7,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明（北村友一の可能性）",
+            "weight_carried": 55.0,
+            "entries": 14,
+            "note": "牡馬混合G1で7着。牝馬での参戦で善戦"
+          },
+          {
+            "date": "2025-09-27",
+            "venue": "阪神",
+            "race_name": "2歳新馬",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "新馬戦を勝利"
+          }
+        ],
+        "career_record": "2戦1勝",
+        "distance_record_1600m": "2戦1勝（新馬勝ち、朝日杯FS7着）",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "53.2-39.1-25.1-12.0",
+          "style": "単走",
+          "evaluation": "しっかり走りをこなしている"
+        },
+        "notes": "牡馬混合の朝日杯FS(G1)で7着は善戦と言える。今回牝馬限定戦で巻き返しの余地あり。阪神コースは新馬戦で勝利しており実績あり。松山弘平騎手は阪神JFでスターアニスを勝たせた実力者。藤原英昭厩舎は桜花賞を目指していると明言。減点なし6頭の1頭。"
+      },
+      {
+        "number": 10,
+        "gate": 6,
+        "name": "コニーアイランド",
+        "jockey": "川田将雅",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 6.8,
+        "popularity": 3,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2025-11-30",
+            "venue": "京都",
+            "race_name": "白菊賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 4,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "川田将雅",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "前走白菊賞4着と敗退。3ヶ月ぶりの復帰"
+          },
+          {
+            "date": "2025-08-02",
+            "venue": "中京",
+            "race_name": "2歳新馬",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "1:35.4",
+            "last_3f": "33.9",
+            "margin": "不明",
+            "jockey": "川田将雅",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "後方から進出し直線で抜け出す競馬で勝利"
+          }
+        ],
+        "career_record": "2戦1勝",
+        "distance_record_1600m": "2戦1勝",
+        "running_style": "差し（後方から進出するタイプ）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "50.9-36.8-24.4-12.4",
+          "style": "単走",
+          "evaluation": "若さは感じるが脚力はさすが"
+        },
+        "notes": "リバティアイランドの半妹という超良血。新馬戦の上がり33.9は素質を感じるが、前走白菊賞4着と1勝クラスでも勝てていない。3ヶ月ぶりの実戦で仕上がりが鍵。川田将雅騎手は阪神芝1600mで勝率29.7%と抜群の成績だが、馬の実力が伴うかが課題。追い切りでは「若さ」が指摘されている。"
+      },
+      {
+        "number": 11,
+        "gate": 6,
+        "name": "ダンデノン",
+        "jockey": "北村友一",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 68.1,
+        "popularity": 12,
+        "sire": "シルバーステート",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "不明",
+            "venue": "京都",
+            "race_name": "未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "未勝利を勝ち上がったばかり"
+          }
+        ],
+        "career_record": "不明",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東CW",
+          "time": "83.1-67.4-52.5-37.6-11.6",
+          "style": "併せ同入",
+          "evaluation": "不明"
+        },
+        "notes": "父シルバーステート。未勝利勝ちからの重賞挑戦。北村友一騎手（前走アランカールの阪神JFで騎乗）との組み合わせ。追い切りはCWで併せ同入と一定の動きを見せている。"
+      },
+      {
+        "number": 12,
+        "gate": 7,
+        "name": "アランカール",
+        "jockey": "武豊",
+        "trainer": "斉藤崇史",
+        "weight_carried": 55.0,
+        "odds": 2.6,
+        "popularity": 1,
+        "sire": "エピファネイア",
+        "dam_sire": "ディープインパクト（母シンハライト）",
+        "recent_races": [
+          {
+            "date": "2025-12-14",
+            "venue": "阪神",
+            "race_name": "阪神ジュベナイルフィリーズ（G1）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 5,
+            "time": "1:33.1",
+            "last_3f": "不明（末脚不発との報道）",
+            "margin": "勝ち馬から0.5秒差",
+            "jockey": "北村友一",
+            "weight_carried": 55.0,
+            "entries": 18,
+            "note": "1番人気で5着。最後方から進出するも大外を回り末脚不発。北村友一「器用なレースができれば良かった。外を回した分、最後に甘くなった」"
+          },
+          {
+            "date": "2025-09-20",
+            "venue": "阪神",
+            "race_name": "野路菊ステークス（OP）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 1,
+            "time": "1:33.5",
+            "last_3f": "33.3",
+            "margin": "3馬身半",
+            "jockey": "北村友一",
+            "weight_carried": 55.0,
+            "entries": "不明（少頭数）",
+            "note": "1番人気で圧勝。最後方から大外を回し3馬身半差。上がり33.3は圧巻"
+          },
+          {
+            "date": "2025-07-05",
+            "venue": "福島",
+            "race_name": "2歳新馬",
+            "distance": 1800,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "4馬身",
+            "jockey": "不明",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "後方からまくって4馬身差の圧勝"
+          }
+        ],
+        "career_record": "3戦2勝（勝率67%、連対率67%、掲示板率100%）",
+        "distance_record_1600m": "2戦1勝1敗（野路菊S 1着、阪神JF 5着）",
+        "running_style": "追込（最後方から大外を回すスタイル。末脚に賭ける競馬）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東CW",
+          "time": "83.0-67.6-52.4-37.6-11.5",
+          "style": "3頭併せ同入",
+          "evaluation": "3頭併せの真ん中でも落ち着いて走れている。好時計で先着"
+        },
+        "notes": "父エピファネイア×母シンハライト（オークス馬）。野路菊S圧勝の末脚は衝撃的（上がり33.3、3馬身半差）。しかし阪神JFでは1番人気で5着と敗北。敗因は最後方から大外を回すロスが大きく末脚不発。今回は武豊騎手に乗り替わりで、より器用な騎乗が期待される。ただし武豊は阪神芝1600mで勝率11.8%と川田将雅（29.7%）と比較して低め。距離適性1600-2400mで本質的にはもう少し長い距離が合う可能性あり。断然1番人気（2.6倍）だが近3年のチューリップ賞は1番人気が全敗しており、EVの検証が最重要課題。"
+      },
+      {
+        "number": 13,
+        "gate": 7,
+        "name": "タイセイボーグ",
+        "jockey": "西村淳也",
+        "trainer": "不明",
+        "weight_carried": 55.0,
+        "odds": 5.0,
+        "popularity": 2,
+        "sire": "インディチャンプ",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "2025-12-14",
+            "venue": "阪神",
+            "race_name": "阪神ジュベナイルフィリーズ（G1）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 3,
+            "time": "1:32.9",
+            "last_3f": "35.0",
+            "margin": "勝ち馬から0.3秒差",
+            "jockey": "西村淳也",
+            "weight_carried": 55.0,
+            "entries": 18,
+            "note": "6番人気で3着。課題のスタートを決めて中団外め追走。直線で懸命に追うも勝ち馬に届かず"
+          },
+          {
+            "date": "2025-10-25",
+            "venue": "東京",
+            "race_name": "アルテミスステークス（G3）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "33.7",
+            "margin": "不明",
+            "jockey": "佐々木大輔",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "出遅れるも後方から上がり最速33.7で追い込み3着"
+          },
+          {
+            "date": "2025-08-24",
+            "venue": "新潟",
+            "race_name": "新潟2歳ステークス（G3）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 2,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "田口貫太",
+            "weight_carried": 55.0,
+            "entries": "不明",
+            "note": "中団からしっかり伸びて2着"
+          },
+          {
+            "date": "2025-08-09",
+            "venue": "新潟",
+            "race_name": "ダリア賞（OP）",
+            "distance": "不明",
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 2,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "4戦0勝（2着2回、3着2回）",
+        "distance_record_1600m": "不明（全走芝1600m前後の可能性高い）",
+        "running_style": "差し・追込（出遅れ癖あり。後方から末脚で追い込むタイプ）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "55.9-40.0-25.3-12.1",
+          "style": "単走",
+          "evaluation": "西村淳也騎手が追い切りに騎乗。馬なりで軽め調整"
+        },
+        "notes": "1勝馬ながら重賞3戦で全て3着以内と抜群の安定感。阪神JF3着は阪神コースでの好走実績。父インディチャンプはマイルG1を3勝した名馬で距離適性は申し分なし。出遅れ癖が課題だが、阪神JFでは課題を克服して好スタートを決めた。上がりの速さは魅力で、アルテミスSの33.7は出色。未勝利ながらチューリップ賞の阪神JF組として最有力候補の1頭。減点なし6頭の1頭。"
+      },
+      {
+        "number": 14,
+        "gate": 8,
+        "name": "ナムラコスモス",
+        "jockey": "田口貫太",
+        "trainer": "大橋勇樹",
+        "weight_carried": 55.0,
+        "odds": 19.1,
+        "popularity": 8,
+        "sire": "ダノンプレミアム",
+        "dam_sire": "ジョーカプチーノ",
+        "recent_races": [
+          {
+            "date": "2026-02-14",
+            "venue": "京都",
+            "race_name": "こぶし賞（1勝クラス）",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "良",
+            "finish": 1,
+            "time": "1:34.5",
+            "last_3f": "不明",
+            "margin": "3/4馬身",
+            "jockey": "田口貫太",
+            "weight_carried": 55.0,
+            "entries": 11,
+            "note": "7番人気で差し切り。外から鋭く伸びて2連勝。牡馬相手に好内容で勝利"
+          },
+          {
+            "date": "2025-11-08",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 1400,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 1,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "6番人気で勝利"
+          },
+          {
+            "date": "2025-10-25",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 1400,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 2,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "5番人気で2着"
+          },
+          {
+            "date": "2025-09-27",
+            "venue": "阪神",
+            "race_name": "2歳未勝利",
+            "distance": 1200,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 2,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "11番人気で2着"
+          },
+          {
+            "date": "2025-09-13",
+            "venue": "阪神",
+            "race_name": "2歳未勝利",
+            "distance": 1200,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 6,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明",
+            "note": "4番人気で6着"
+          }
+        ],
+        "career_record": "5戦2勝",
+        "distance_record_1600m": "1戦1勝（こぶし賞1着）",
+        "running_style": "差し（外から鋭く伸びるタイプ）",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "54.6-39.7-25.4-12.4",
+          "style": "単走",
+          "evaluation": "不明"
+        },
+        "notes": "前走こぶし賞を7番人気で差し切り2連勝。距離延長で結果を出しており上昇中。父ダノンプレミアムはマイルG1馬で距離適性は問題なし。人気以上の走りを見せる穴馬タイプ。ただし8枠14番は外枠でチューリップ賞では不利傾向。減点なし6頭の1頭。"
+      },
+      {
+        "number": 15,
+        "gate": 8,
+        "name": "ダンシングドール",
+        "jockey": "森田誠也",
+        "trainer": "牧田和弥",
+        "weight_carried": 55.0,
+        "odds": 176.9,
+        "popularity": 15,
+        "sire": "不明",
+        "dam_sire": "不明",
+        "recent_races": [
+          {
+            "date": "不明",
+            "venue": "京都",
+            "race_name": "1勝クラス",
+            "distance": 1400,
+            "surface": "ダート",
+            "condition": "不明",
+            "finish": 4,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-11-16",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 1400,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 5,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-10-25",
+            "venue": "京都",
+            "race_name": "2歳未勝利",
+            "distance": 1400,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 10,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-08-24",
+            "venue": "中山",
+            "race_name": "2歳未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 8,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          },
+          {
+            "date": "2025-08-02",
+            "venue": "中山",
+            "race_name": "2歳未勝利",
+            "distance": 1600,
+            "surface": "芝",
+            "condition": "不明",
+            "finish": 3,
+            "time": "不明",
+            "last_3f": "不明",
+            "margin": "不明",
+            "jockey": "不明",
+            "weight_carried": "不明",
+            "entries": "不明"
+          }
+        ],
+        "career_record": "不明（勝ち鞍なしの可能性高い）",
+        "distance_record_1600m": "不明",
+        "running_style": "不明",
+        "workout": {
+          "date": "最終追い切り",
+          "course": "栗東坂路",
+          "time": "54.2-39.2-25.1-12.0",
+          "style": "単走",
+          "evaluation": "不明"
+        },
+        "notes": "前走ダート1400m4着、その前は芝未勝利で5着以下と苦戦。未勝利馬（1勝クラスのダートも着外）。重賞では力不足の可能性が高い。最低人気。"
+      }
+    ],
+    "odds": {
+      "source": "Plan Agent提供のオッズ（レース当日朝時点）",
+      "timestamp": "2026-03-01",
+      "win_odds": {
+        "1_エレガンスアスク": 14.1,
+        "2_グレースジェンヌ": 114.8,
+        "3_アンディムジーク": 153.1,
+        "4_スマートプリエール": 13.3,
+        "5_ソルパッサーレ": 7.6,
+        "6_グランドオーパス": 33.8,
+        "7_サキドリトッケン": 36.3,
+        "8_エイズルブルーム": 30.0,
+        "9_ホワイトオーキッド": 14.2,
+        "10_コニーアイランド": 6.8,
+        "11_ダンデノン": 68.1,
+        "12_アランカール": 2.6,
+        "13_タイセイボーグ": 5.0,
+        "14_ナムラコスモス": 19.1,
+        "15_ダンシングドール": 176.9
+      },
+      "popularity_order": [12, 13, 10, 5, 4, 1, 9, 14, 8, 6, 7, 11, 2, 3, 15]
+    },
+    "track_bias": {
+      "hanshin_turf_1600m_outer": {
+        "draw_bias": "中枠(3-4枠)が好成績。内枠(1-3枠)は勝率9.3%・複勝率23.3%、外枠(7-8枠)は勝率4.9%・複勝率17.1%で内枠有利傾向。",
+        "running_style_bias": "先行脚質が最も連対率高い。直線が長く急坂もあるため差し・追込にもチャンス。",
+        "bias_trend_2026": "近3年は馬場状態向上とコース替わり初週で内外差が薄れ、やや内有利傾向",
+        "note": "直線473.6mは中央で3番目に長い。急坂があるためスピード持続力＋パワーが求められる"
+      }
+    },
+    "weather": {
+      "date": "2026-03-01",
+      "weather": "晴れ",
+      "temperature_high": 16,
+      "temperature_low": 6,
+      "precipitation_probability": "0%（12-18時）",
+      "wind": "北4m/s",
+      "track_condition": "良（JRA公式：曇→晴れ、芝状態：良）",
+      "note": "降雨なし、良馬場確定的"
+    },
+    "course_characteristics": {
+      "name": "阪神芝1600m外回り",
+      "direction": "右回り",
+      "straight_length": "473.6m",
+      "features": [
+        "スタートからコーナーまで約470mと長く、ペースは落ち着きやすい",
+        "3〜4コーナーは大きなカーブで外回り特有のゆったりした作り",
+        "最後の直線473.6mは中央で3番目に長い",
+        "残り200mから100mの間に高低差1.8mの急坂",
+        "スピードとパワーの両方が求められる",
+        "長く良い脚を使える馬に向く"
+      ],
+      "key_factor": "上がり3Fの絶対値が最重要。末脚のキレより持続力が問われる"
+    },
+    "jockey_stats": {
+      "hanshin_turf_1600m": {
+        "川田将雅": {
+          "record": "30-10-15-46",
+          "win_rate": "29.7%",
+          "place_rate": "39.6%",
+          "show_rate": "54.5%",
+          "win_return": "108%",
+          "place_return": "83%",
+          "note": "阪神芝1600mで圧倒的な成績。G1での勝率41.7%、単回収率324%"
+        },
+        "武豊": {
+          "record": "13-19-6-72",
+          "win_rate": "11.8%",
+          "place_rate": "29.1%",
+          "show_rate": "34.5%",
+          "win_return": "88%",
+          "place_return": "80%",
+          "note": "逃げ・先行馬との相性が良い。前に付けた時の好成績が光る。アランカールのような追込馬との相性は未知数"
+        },
+        "岩田望来": {
+          "record": "不明",
+          "win_rate": "10.3%",
+          "place_rate": "20.6%",
+          "show_rate": "30.3%",
+          "win_return": "49%",
+          "place_return": "120%",
+          "note": "内枠での成績が特に強く、1〜4枠では複勝率40.0%、複回収率143%"
+        },
+        "松山弘平": {
+          "record": "不明",
+          "win_rate": "不明",
+          "place_rate": "不明",
+          "show_rate": "不明",
+          "note": "2025年阪神JFでスターアニスを優勝に導いた実力者"
+        },
+        "浜中俊": {
+          "record": "不明",
+          "win_rate": "不明",
+          "place_rate": "不明",
+          "show_rate": "不明",
+          "note": "阪神は地元で経験豊富"
+        },
+        "西村淳也": {
+          "record": "不明",
+          "win_rate": "不明",
+          "place_rate": "不明",
+          "show_rate": "不明",
+          "note": "阪神JFでタイセイボーグを3着に導いた"
+        },
+        "池添謙一": {
+          "record": "不明",
+          "win_rate": "不明",
+          "place_rate": "不明",
+          "show_rate": "不明",
+          "note": "ベテラン。阪神コース経験豊富"
+        },
+        "坂井瑠星": {
+          "record": "不明",
+          "win_rate": "不明",
+          "place_rate": "不明",
+          "show_rate": "不明",
+          "note": "若手有力騎手。エレガンスアスクの新馬戦は川田騎乗で、今回乗り替わり"
+        }
+      }
+    },
+    "past_tulip_sho_results": [
+      {
+        "year": 2025,
+        "winner": "クリノメイ",
+        "winner_popularity": 9,
+        "second": "ウォーターガーベラ",
+        "second_popularity": 7,
+        "third": "ビップデイジー",
+        "third_popularity": 1,
+        "time": "1:34.0",
+        "condition": "良",
+        "entries": 14,
+        "payout": {
+          "win": 3930,
+          "exacta": 24010,
+          "trifecta": 192330
+        },
+        "note": "9番人気が勝利。1番人気3着止まりで波乱"
+      },
+      {
+        "year": 2024,
+        "winner": "スウィープフィート",
+        "winner_popularity": 5,
+        "second": "セキトバイースト",
+        "second_popularity": "不明",
+        "third": "ハワイアンティアレ",
+        "third_popularity": "不明",
+        "time": "1:33.1",
+        "condition": "不明",
+        "entries": "不明",
+        "payout": {
+          "win": 970,
+          "exacta": 17730,
+          "trifecta": 1693290
+        },
+        "note": "5番人気スウィープフィートが差し切り勝ち。武豊騎手。3連単169万馬券の大波乱"
+      },
+      {
+        "year": 2023,
+        "winner": "モズメイメイ",
+        "winner_popularity": 7,
+        "second": "コナコースト",
+        "second_popularity": "不明",
+        "third": "ペリファーニア",
+        "third_popularity": "不明",
+        "time": "1:34.0",
+        "condition": "不明",
+        "entries": "不明",
+        "payout": {
+          "win": 1620,
+          "exacta": 6890,
+          "trifecta": 155330
+        },
+        "note": "7番人気モズメイメイがハナ差制す。武豊騎手"
+      },
+      {
+        "year": 2022,
+        "winner": "ナミュール",
+        "winner_popularity": 1,
+        "second": "ピンハイ",
+        "second_popularity": "不明",
+        "third": "サークルオブライフ",
+        "third_popularity": "不明",
+        "time": "1:33.2",
+        "condition": "不明",
+        "entries": "不明",
+        "payout": {
+          "win": 220,
+          "exacta": 56300,
+          "trifecta": 258360
+        },
+        "note": "1番人気ナミュールが勝利するも馬連以降は高配当"
+      },
+      {
+        "year": 2021,
+        "winner": "メイケイエール / エリザベスタワー（1着同着）",
+        "winner_popularity": "1 / 3",
+        "second": "なし（1着同着のため）",
+        "second_popularity": "なし",
+        "third": "ストゥーティ",
+        "third_popularity": 4,
+        "time": "1:33.8",
+        "condition": "稍重",
+        "entries": "不明",
+        "payout": {
+          "win": "不明",
+          "exacta": "不明",
+          "trifecta": "不明"
+        },
+        "note": "1着同着の珍事。メイケイエール（武豊）とエリザベスタワー（川田将雅）が同着"
+      }
+    ],
+    "tulip_sho_trends": {
+      "hjf_runners": {
+        "description": "前走阪神JF組は勝率37.5%、複勝率62.5%と圧倒的に有利",
+        "this_year": ["アランカール（5着）", "タイセイボーグ（3着）"],
+        "note": "ただし前走阪神JF5着以下は割引が必要。タイセイボーグの3着は好材料"
+      },
+      "previous_race_1600m": {
+        "description": "前走芝1600mの馬が3着内率で圧倒。〔8・1・5・11〕",
+        "note": "前走芝1600m重賞5着以内の馬は3着内率58.1%"
+      },
+      "frame_bias": {
+        "description": "1-3枠が勝率9.3%・複勝率23.3%。7-8枠は勝率4.9%・複勝率17.1%で内枠有利",
+        "note": "アランカール(7枠12番)、タイセイボーグ(7枠13番)は外枠でやや不利"
+      },
+      "1st_favorite_recent": {
+        "description": "近3年は1番人気が勝てていない（2023年4着、2024年5着、2025年3着）",
+        "note": "2022年のナミュール（1番人気1着）が最後の1番人気勝利"
+      },
+      "upset_trend": {
+        "description": "直近4年連続で3連単10万馬券超え",
+        "note": "荒れるレースとして有名。中穴〜大穴の出番がある"
+      },
+      "武豊_tulip_connection": {
+        "description": "武豊騎手は2023年モズメイメイ、2024年スウィープフィートでチューリップ賞2連覇中",
+        "note": "今年アランカールで3連覇を狙う。ただし過去2年はいずれも人気薄での勝利"
+      }
+    },
+    "pace_analysis": {
+      "expected_pace": "スロー寄り",
+      "likely_leaders": "明確な逃げ馬が少ない。サキドリトッケン（地方からの遠征馬）が先手を主張する可能性があるが、芝経験なしで不透明。エレガンスアスク、グランドオーパスなどが先行策を取る可能性",
+      "scenario": "スローの上がり勝負になる可能性が高い。差し・追込馬に有利な展開",
+      "key_closers": "アランカール（追込）、タイセイボーグ（差し・追込）、コニーアイランド（差し）、ナムラコスモス（差し）",
+      "note": "アランカールは追込脚質のため、スローになりすぎると届かないリスクあり。武豊が位置取りを改善できるかが鍵"
+    },
+    "uncollected_items": [
+      "各馬の馬体重・馬体重増減",
+      "パドック情報（レース直前のため未収集）",
+      "各馬の具体的な上がり3Fタイム一覧（一部馬のみ取得）",
+      "グレースジェンヌ、ダンシングドール、ダンデノンの詳細戦績",
+      "松山弘平、浜中俊、西村淳也、坂井瑠星の阪神芝1600m詳細成績",
+      "各馬の具体的な血統情報（一部馬のみ取得）",
+      "当日のトラックバイアス（レース中の確認が必要）",
+      "エレガンスアスクの新馬戦の上がり3Fタイム",
+      "コニーアイランドの白菊賞4着の詳細（タイム・上がり等）",
+      "ホワイトオーキッドの朝日杯FSの詳細（通過順位・上がり3F等）"
+    ]
+  },
+  "collected_at": "2026-03-01T10:30:00+09:00",
+  "data_sources": [
+    "netkeiba (race.netkeiba.com)",
+    "Yahoo!スポーツナビ (sports.yahoo.co.jp)",
+    "競馬ラボ (keibalab.jp)",
+    "ウマニティ (umanity.jp)",
+    "JRA公式 (jra.go.jp)",
+    "JBIS Search (jbis.or.jp)",
+    "競馬ブック (keibabook.co.jp)",
+    "東スポ競馬 (tospo-keiba.jp)",
+    "SPAIA競馬 (spaia-keiba.com)",
+    "中日スポーツ (chunichi.co.jp)",
+    "ラジオNIKKEI (radionikkei.jp)",
+    "tenki.jp (tenki.jp)",
+    "血統フェスティバル (bfkeiba.com)"
+  ]
+}
