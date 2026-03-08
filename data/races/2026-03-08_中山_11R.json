@@ -1,0 +1,111 @@
+{
+  "race_info": {
+    "date": "2026-03-08",
+    "venue": "中山",
+    "race_number": 11,
+    "race_name": "報知杯弥生賞ディープインパクト記念",
+    "distance": 2000,
+    "surface": "芝",
+    "condition": "稍重",
+    "class": "G2",
+    "prize": "5400万円",
+    "entries": 10,
+    "weather": "曇",
+    "start_time": "15:45"
+  },
+  "horses": [
+    {
+      "number": 1, "gate": 1, "name": "ステラスペース", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "武藤雅", "trainer": "武藤善則", "stable": "美浦", "father": "レイデオロ",
+      "career": "7戦2勝", "running_style": "逃げ・先行", "odds": 15.1, "popularity": 5,
+      "recent_races": [
+        {"date": "2026-01-18", "race": "京成杯(G3)", "venue": "中山", "distance": 2000, "result": 5, "time": "1:59.6"},
+        {"date": "2026-01-05", "race": "3歳1勝クラス", "venue": "中山", "distance": 2000, "result": 1},
+        {"date": "2025-12-06", "race": "葉牡丹賞", "venue": "中山", "distance": 2000, "result": 7},
+        {"date": "2025-10-19", "race": "未勝利", "venue": "新潟", "result": 1},
+        {"date": "2025-09-28", "race": "未勝利", "venue": "中山", "result": 3}
+      ]
+    },
+    {
+      "number": 2, "gate": 2, "name": "メイショウソラリス", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "角田大和", "father": "不明", "odds": 58.3, "popularity": 8,
+      "recent_races": [{"race": "京都2歳S", "result": 11, "notes": "最下位"}],
+      "running_style": "先行(折り合い難)"
+    },
+    {
+      "number": 3, "gate": 3, "name": "コスモギガンティア", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "矢野貴之", "stable": "川崎", "odds": 64.7, "popularity": 9,
+      "notes": "地方所属。芝2戦掲示板外"
+    },
+    {
+      "number": 4, "gate": 4, "name": "ライヒスアドラー", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "佐々木大輔", "trainer": "上原佑紀", "stable": "美浦", "father": "シスキン",
+      "career": "2戦1勝", "running_style": "先行", "odds": 2.5, "popularity": 2,
+      "recent_races": [
+        {"date": "2025-11-24", "race": "東スポ杯2歳S(G2)", "venue": "東京", "distance": 1800, "result": 3, "time": "1:46.2", "last3f": "32.9(最速)", "notes": "不利あり"},
+        {"date": "2025-09-14", "race": "新馬", "venue": "中山", "distance": 1800, "result": 1, "time": "1:51.5", "notes": "3.5馬身差圧勝"}
+      ]
+    },
+    {
+      "number": 5, "gate": 5, "name": "タイダルロック", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "三浦皇成", "trainer": "武井亮", "stable": "美浦", "father": "モーリス",
+      "career": "3戦1勝", "running_style": "好位～中団", "odds": 9.6, "popularity": 4,
+      "recent_races": [
+        {"date": "2026-01-18", "race": "京成杯(G3)", "venue": "中山", "distance": 2000, "result": 4, "time": "1:59.6", "last3f": "34.2(上がり2位)", "notes": "0.3秒差"},
+        {"date": "2025-09-27", "race": "芙蓉S(OP)", "venue": "中山", "distance": 2000, "result": 6},
+        {"date": "2025-07-06", "race": "新馬", "venue": "福島", "distance": 2000, "result": 1, "notes": "4馬身差完勝"}
+      ]
+    },
+    {
+      "number": 6, "gate": 6, "name": "アドマイヤクワッズ", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "坂井瑠星", "trainer": "友道康夫", "stable": "栗東", "father": "リアルスティール",
+      "career": "3戦2勝", "running_style": "中団差し", "odds": 2.4, "popularity": 1,
+      "recent_races": [
+        {"date": "2025-12", "race": "朝日杯FS(G1)", "venue": "阪神", "distance": 1600, "result": 3},
+        {"date": "2025-11-15", "race": "デイリー杯2歳S(G2)", "venue": "京都", "distance": 1600, "result": 1, "time": "1:33.1", "notes": "コースレコード"},
+        {"date": "2025-10-18", "race": "新馬", "venue": "東京", "distance": 1600, "result": 1}
+      ],
+      "notes": "初の2000m。マイルG2勝ちG1 3着。休み明け。"
+    },
+    {
+      "number": 7, "gate": 7, "name": "モウエエデショー", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "原田和真", "odds": 82.8, "popularity": 10,
+      "career": "6戦1勝", "notes": "未勝利勝ち直後。平凡な時計"
+    },
+    {
+      "number": 8, "gate": 7, "name": "バステール", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "川田将雅", "trainer": "斉藤崇史", "stable": "栗東", "father": "キタサンブラック",
+      "career": "2戦1勝", "running_style": "先行", "odds": 5.9, "popularity": 3,
+      "recent_races": [
+        {"date": "2025-12-20", "race": "未勝利", "venue": "阪神", "distance": 2000, "result": 1, "time": "2:00.7", "notes": "断然1番人気快勝"},
+        {"date": "2025-11-30", "race": "新馬", "venue": "東京", "distance": 1800, "result": 2, "notes": "1番人気も2着"}
+      ],
+      "notes": "川田に乗り替わり。シルクレーシング。ノーザンF生産。"
+    },
+    {
+      "number": 9, "gate": 8, "name": "アメテュストス", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "大野拓弥", "trainer": "加藤士津", "father": "サートゥルナーリア",
+      "odds": 33.4, "popularity": 7,
+      "recent_races": [
+        {"date": "2026-01-18", "race": "京成杯(G3)", "venue": "中山", "distance": 2000, "result": 8},
+        {"race": "芙蓉S(OP)", "venue": "中山", "distance": 2000, "result": 2}
+      ],
+      "notes": "近2走4着以下。芙蓉S2着もレースレベルに疑問"
+    },
+    {
+      "number": 10, "gate": 8, "name": "バリオス", "sex_age": "牡3", "weight": 57.0,
+      "jockey": "高杉吏麒", "trainer": "武幸四郎", "stable": "栗東", "father": "キタサンブラック",
+      "career": "1戦1勝", "running_style": "差し", "odds": 20.4, "popularity": 6,
+      "recent_races": [
+        {"date": "2026-01-31", "race": "新馬", "venue": "京都", "distance": 2000, "result": 1, "time": "2:03.4", "notes": "差し切り。単勝350円"}
+      ],
+      "notes": "ノースヒルズ。母父フレンチデピュティ。新馬1戦のみ"
+    }
+  ],
+  "track_bias": {
+    "description": "前日(3/7)の中山芝は前残り・内有利の傾向が非常に強い",
+    "inner_outer": "inner_advantage",
+    "pace_tendency": "front_runner_advantage"
+  },
+  "collected_at": "2026-03-08T04:30:00+09:00"
+}
