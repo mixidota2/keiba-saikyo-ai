@@ -1,0 +1,51 @@
+{
+  "race_info": {
+    "date": "2026-03-08",
+    "venue": "中山",
+    "race_number": 11,
+    "race_name": "報知杯弥生賞ディープインパクト記念 (G2)",
+    "distance": 2000,
+    "surface": "芝",
+    "condition": "良",
+    "entries": 10
+  },
+  "results": [
+    {"position": 1, "number": 8, "name": "バステール", "jockey": "川田将雅", "time": "2:00.2", "margin": "-", "popularity": 3, "odds": 6.3},
+    {"position": 2, "number": 4, "name": "ライヒスアドラー", "jockey": "佐々木大輔", "time": "2:00.3", "margin": "3/4", "popularity": 2, "odds": 2.7},
+    {"position": 3, "number": 6, "name": "アドマイヤクワッズ", "jockey": "坂井瑠星", "time": "2:00.3", "margin": "クビ", "popularity": 1, "odds": 2.2},
+    {"position": 4, "number": 5, "name": "タイダルロック", "jockey": "三浦皇成", "popularity": 4, "odds": 8.5},
+    {"position": 5, "number": 7, "name": "モウエエデショー", "jockey": "原田和真", "popularity": 10, "odds": 150.0},
+    {"position": 6, "number": 3, "name": "コスモギガンティア", "jockey": "矢野貴之", "popularity": 9, "odds": 104.6},
+    {"position": 7, "number": 1, "name": "ステラスペース", "jockey": "武藤雅", "popularity": 5, "odds": 17.9},
+    {"position": 8, "number": 10, "name": "バリオス", "jockey": "高杉吏麒", "popularity": 6, "odds": 18.2},
+    {"position": 9, "number": 9, "name": "アメテュストス", "jockey": "大野拓弥", "popularity": 7, "odds": 37.5},
+    {"position": 10, "number": 2, "name": "メイショウソラリス", "jockey": "角田大和", "popularity": 8, "odds": 61.5}
+  ],
+  "payouts": {
+    "win": {"selection": "8", "payout": 630},
+    "place": {"selections": ["8", "4", "6"], "payouts": [140, 110, 110]},
+    "quinella": {"selection": "4-8", "payout": 1060},
+    "wide": {"selections": ["4-8", "6-8", "4-6"], "payouts": [310, 250, 140]},
+    "trio": {"selection": "4-6-8", "payout": 470},
+    "trifecta": {"selection": "8-4-6", "payout": 4820}
+  },
+  "prediction_comparison": {
+    "score_ranking_vs_result": [
+      {"score_rank": 1, "name": "ライヒスアドラー", "score": 64.3, "actual_position": 2},
+      {"score_rank": 2, "name": "アドマイヤクワッズ", "score": 60.6, "actual_position": 3},
+      {"score_rank": 3, "name": "バステール", "score": 54.4, "actual_position": 1},
+      {"score_rank": 4, "name": "タイダルロック", "score": 52.5, "actual_position": 4},
+      {"score_rank": 5, "name": "ステラスペース", "score": 50.3, "actual_position": 7}
+    ],
+    "bet_results": [
+      {"type": "ワイド", "selection": "1-4", "result": "miss"},
+      {"type": "ワイド", "selection": "4-5", "result": "miss"},
+      {"type": "馬連", "selection": "4-5", "result": "miss"},
+      {"type": "三連複", "selection": "1-4-5", "result": "miss"},
+      {"type": "単勝", "selection": "5", "result": "miss"}
+    ],
+    "total_bets": 5,
+    "total_hits": 0,
+    "roi": "0%"
+  }
+}

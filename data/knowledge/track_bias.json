@@ -24,10 +24,10 @@
         "1200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
         "1600": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
         "1800": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
-        "2000": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
+        "2000": {"inner_outer": "neutral", "pace": "slow_pace_stalker_advantage", "notes": "2026弥生賞: スローでバステール(7枠/川田)が先行押し切り。ライヒスアドラー(4枠)2着、アドマイヤクワッズ(6枠)3着。逃げたステラスペース(1枠)は7着。少頭数(10頭)では外枠×栗東騎手が有利(データ勝率33.3%)。"},
         "2200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
         "2500": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
-        "general_notes": "直線310m。小回り。先行有利傾向。急坂あり。"
+        "general_notes": "直線310m。小回り。先行有利傾向。急坂あり。少頭数弥生賞では外枠有利データあり。"
       },
       "dirt": {
         "1200": {"inner_outer": "neutral", "pace": "neutral", "notes": ""},
